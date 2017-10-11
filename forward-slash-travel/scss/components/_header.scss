@@ -1,0 +1,103 @@
+#header {
+
+	.header__overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		opacity: 0.3;
+		background-color: $black;
+	}
+
+	.top-header {
+
+		@include desktop {
+			position: fixed;
+			transition: all 0.3s ease;
+		}
+	}
+
+	.top-header--scroll {
+
+		@include desktop {
+			background-color: $black;
+			padding-top: 0;
+
+		}
+
+		.header-logo {
+
+			@include desktop {
+				font-size: 48px !important;
+			}
+		}
+	}
+
+	.header-logo {
+	  font-family: $font__title;
+	  font-size: 36px !important;
+
+	  @include tablet {
+	  	font-size: 48px !important;
+	  }
+
+	  @include desktop {
+	  	font-size: 60px !important;
+	  }
+	}
+
+	h1 {
+		z-index: 1;
+	}
+	
+	.bottom-header {
+		
+		padding-top: 140px;
+		padding-bottom: 180px;
+
+		@include desktop {
+			padding-top: 240px;
+			padding-bottom: 280px;
+		}
+
+		.section-description {
+			font-size: 20px;
+			line-height: 30px;
+
+			@include tablet {
+				font-size: 22px;
+				line-height: 32px;
+			}
+
+		}
+	}
+
+	.bottom-header.blog {
+
+		@include desktop {
+			padding-top: 230px;
+		}
+	}
+}
+
+#header.header-front-page {
+
+	@include desktop {
+		height: 100vh;
+		min-height: 650px;
+	}
+	
+	.bottom-header {
+		
+		@include desktop {
+
+			padding-top: 0;
+			padding-bottom: 0;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+
+		}
+	}
+}

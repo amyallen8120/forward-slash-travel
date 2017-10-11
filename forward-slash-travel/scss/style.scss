@@ -1,0 +1,65 @@
+/*!
+Theme Name: Forward Slash Travel
+Theme URI: http://www.amyeallen.com
+Author: Amy Allen
+Author URI: http://www.amyeallen.com
+Description: Theme for Forward Slash Travel. Child theme of Illdy.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: forward-slash-travel
+Tags:
+Template: illdy
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Accessibility
+# Alignments
+# Clearings
+# Typography
+# Forms
+# Buttons
+# Formatting
+# Lists
+# Tables
+# Navigation
+# Links
+# Layout
+# Comments
+# Widgets
+# Infinite scroll
+# Media
+	## Galleries
+# Forward Slash Travel
+--------------------------------------------------------------*/
+@import "variables/variables-base";
+@import "mixins/mixins-base";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "shared/accessibility";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "shared/typography";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "shared/forms";
+
+/*--------------------------------------------------------------
+# WP Subscribe
+--------------------------------------------------------------*/
+@import "shared/wp-subscribe";
+
+
+/*--------------------------------------------------------------
+# Forward Slash Travel
+--------------------------------------------------------------*/
+@import "components";

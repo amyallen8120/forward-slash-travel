@@ -1,0 +1,1 @@
+var $j=jQuery.noConflict();window.addEventListener("scroll",function(e){var o=window.pageYOffset||document.documentElement.scrollTop,l=$j(".top-header");o>100?l.addClass("top-header--scroll"):l.hasClass("top-header--scroll")&&l.removeClass("top-header--scroll")});

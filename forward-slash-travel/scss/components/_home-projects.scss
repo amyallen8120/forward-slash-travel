@@ -1,0 +1,29 @@
+#projects {
+
+	.widget_illdy_project {
+		
+		&:hover {
+
+			.project-overlay {
+				opacity: 1;
+				background-color: rgba(255, 255, 255, 0.7);
+			}
+
+		}
+		
+		.project-overlay {
+			background-color: rgba(255, 255, 255, 0);
+			opacity: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+
+			h4 {
+				color: $black;
+			}
+		}
+
+	}
+
+}

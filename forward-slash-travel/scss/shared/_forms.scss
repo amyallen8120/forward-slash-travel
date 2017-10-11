@@ -1,0 +1,30 @@
+.wpcf7 {
+
+	label {
+		width: 100%;
+	}
+
+	input[type="submit"] {
+		
+		height: 44px;
+		padding: 0 60px;
+		width: 100%;
+	    background-color: $pink;
+	    color: white;
+	    transition: all 0.3s;
+
+		@include tablet {
+			width: auto;
+		}
+
+	    &:hover {
+	    	background-color: $charcoal;
+	    	opacity: 0.9;
+	    }
+	}
+
+	.wpcf7-validation-errors {
+		border: 2px solid #f00;
+	}
+
+}
